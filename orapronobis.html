@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ora-Pro-Nóbis Raiz Forte - Raiz Forte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div id="wrapper">
+    
+    <header id="site-header">
+      <a href="index.html" class="header-brand">
+        <img src="assets/imgs/logo.png" alt="Raiz Forte Logo" class="logo-img">
+        <div class="logo-text">
+          <div class="logo-title">Raiz Forte</div>
+          <div class="logo-subtitle">Suplementos Naturais</div>
+        </div>
+      </a>
+      <div class="header-slogan">
+        "A marca que pensa no meio ambiente e em você!"
+      </div>
+    </header>
+
+    <nav id="nav-bar">
+      <a href="index.html" class="nav-item">Início</a>
+      <a href="produtos.html" class="nav-item active">Produtos</a>
+      <a href="sobre.html" class="nav-item">Sobre Nós</a>
+      <a href="contato.html" class="nav-item">Contato</a>
+    </nav>
+
+
+    <main>
+      <div class="breadcrumb">
+        <a href="index.html">Início</a> &gt; <a href="produtos.html">Produtos</a> &gt; Ora-Pro-Nóbis Raiz Forte
+      </div>
+
+      <div class="product-page-container">
+        <!-- Coluna de Especificações do Produto -->
+        <div class="product-details-col">
+          <div class="product-header">
+            <div class="product-img-box">
+              <img src="assets/imgs/logo.png" alt="Ora-Pro-Nóbis Raiz Forte">
+            </div>
+            <div>
+              <h1 class="product-title">Ora-Pro-Nóbis Raiz Forte</h1>
+              <div class="product-price">R$ 49,90</div>
+              <span class="product-tag">Proteína & Vitalidade</span>
+            </div>
+          </div>
+
+          <p style="font-size: 14px; margin-bottom: 15px; color: #3D5033;">Superalimento concentrado da planta Ora-Pro-Nóbis, rico em proteínas vegetais de alto valor biológico, ferro, cálcio e fibras digestivas.</p>
+
+          <h3 class="specs-title">Especificações Técnicas</h3>
+          <ul class="specs-list">
+            <li><strong>Quantidade:</strong> 120 Cápsulas (500mg)</li><li><strong>Ingredientes:</strong> Folhas de Ora-Pro-Nóbis desidratadas e moídas em pó puro.</li><li><strong>Cultivo:</strong> 100% Orgânico sem agrotóxicos</li><li><strong>Perfil Nutricional:</strong> Fonte concentrada de ferro e fibras</li><li><strong>Indicado para:</strong> Veganos, vegetarianos e suporte à imunidade</li>
+          </ul>
+        </div>
+
+         <!-- Coluna do Formulário de Compra -->
+        <div class="buy-form-col">
+          <h2 class="buy-form-title">Formulário de Compra</h2>
+          <form action="carrinho.html" method="get">
+            <div class="form-group">
+              <label for="qtd">Quantidade</label>
+              <select id="qtd" name="qtd">
+                <option value="1">1 unidade</option>
+                <option value="2">2 unidades</option>
+                <option value="3">3 unidades</option>
+                <option value="5">5 unidades</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required placeholder="seu@email.com">
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+            </div>
+            <div class="form-group">
+              <label for="endereco">Endereço de Entrega</label>
+              <input type="text" id="endereco" name="endereco" required placeholder="Rua, número, bairro, cidade - UF">
+            </div>
+            <div class="form-group">
+              <label for="pagamento">Forma de Pagamento</label>
+              <select id="pagamento" name="pagamento">
+                <option value="pix">PIX (5% de Desconto)</option>
+                <option value="cartao">Cartão de Crédito</option>
+                <option value="boleto">Boleto Bancário</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-checkout">
+              <span class="cart-icon-box">
+                <img src="assets/imgs/carrinho branco.png" alt="Carrinho">
+              </span>
+              Finalizar Pedido
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    
+    <footer id="site-footer">
+      <p>&copy; 2026 Raiz Forte - Suplementos Naturais. Todos os direitos reservados.</p>
+     
+    </footer>
+
+  </div>
+
+</body>
+</html>

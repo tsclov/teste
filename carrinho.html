@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Carrinho - Raiz Forte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div id="wrapper">
+    
+    <header id="site-header">
+      <a href="index.html" class="header-brand">
+        <img src="assets/imgs/logo.png" alt="Raiz Forte Logo" class="logo-img">
+        <div class="logo-text">
+          <div class="logo-title">Raiz Forte</div>
+          <div class="logo-subtitle">Suplementos Naturais</div>
+        </div>
+      </a>
+      <div class="header-slogan">
+        "A marca que pensa no meio ambiente e em você!"
+      </div>
+    </header>
+
+    <nav id="nav-bar">
+      <a href="index.html" class="nav-item">Início</a>
+      <a href="produtos.html" class="nav-item">Produtos</a>
+      <a href="sobre.html" class="nav-item">Sobre Nós</a>
+      <a href="contato.html" class="nav-item">Contato</a>
+    </nav>
+
+
+    <main>
+      <h2 style="font-family: 'Chau Philomene One', sans-serif; font-size: 32px; color: #3D5033; margin-bottom: 15px; border-bottom: 2px solid #C3CE94; padding-bottom: 8px;">
+        Meu Carrinho de Compras
+      </h2>
+
+      <div class="cart-notice">
+        🛒 <strong>Produtos adicionados ao seu carrinho com sucesso!</strong>
+      </div>
+
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Qtd.</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="assets/imgs/creatina.png" alt="Creatina" class="cart-item-img">
+              <strong>Creatina Raiz Forte 300g</strong>
+            </td>
+            <td>R$ 99,90</td>
+            <td>1</td>
+            <td>R$ 99,90</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/imgs/omega3.png" alt="Ômega-3" class="cart-item-img">
+              <strong>Ômega-3 Raiz Forte 60 Cápsulas</strong>
+            </td>
+            <td>R$ 79,90</td>
+            <td>1</td>
+            <td>R$ 79,90</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/imgs/Gummyforte.png" alt="Gummy" class="cart-item-img">
+              <strong>Gummy Raiz Forte Autoral</strong>
+            </td>
+            <td>R$ 69,90</td>
+            <td>2</td>
+            <td>R$ 139,80</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="cart-flex-bottom">
+        <a href="produtos.html" class="btn-back">
+          ← Continuar Comprando
+        </a>
+
+        <div class="cart-summary">
+          <h3>Resumo do Pedido</h3>
+          <div class="cart-row"><span>Subtotal:</span> <strong>R$ 319,60</strong></div>
+          <div class="cart-row"><span>Frete Sustentável:</span> <strong>R$ 15,00</strong></div>
+          <div class="cart-row" style="font-size: 18px; color: #3D5033; font-weight: bold; border-top: 1px solid #745846; padding-top: 10px; margin-top: 10px;">
+            <span>Total:</span> <strong>R$ 334,60</strong>
+          </div>
+          <form action="obrigado.html" method="get">
+            <button type="submit" class="btn-checkout">Finalizar Compra</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    
+    <footer id="site-footer">
+      <p>&copy; 2026 Raiz Forte - Suplementos Naturais. Todos os direitos reservados.</p>
+      
+    </footer>
+
+  </div>
+
+</body>
+</html>
